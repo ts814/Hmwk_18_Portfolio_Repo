@@ -1,0 +1,125 @@
+body {
+  height: 1600px;
+}
+.left {
+  width: 50%;
+  background-color:black;
+}
+.right {
+  position: relative;
+  top: 36px;
+  left: 1250px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+.aboout {
+  position: relative;
+  top: 6px;
+  left: 800px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+.skills {
+  position: relative;
+  bottom: 24px;
+  left: 950px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+.resume{
+  position: relative;
+  bottom: 54px;
+  left: 1100px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+.topNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background-color: black;
+  height: 50px;
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+
+}
+
+.bottomNav{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  background-color: rgb(26, 35, 51);
+  height: 6px;
+  width: 940px;
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+}
+
+.homeIntro {
+  position: absolute;
+  top: 170px;
+  right: 100px;
+  width: 850px;
+  height: 100px;
+
+}
+
+.myLogo {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  color: white;
+
+}
+
+.fixedPortrait {
+  position: fixed;
+  bottom: 6px;
+  left: 10px;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  color: black;
+}
+
+.caseStudies {
+  position: absolute;
+  top: 550px;
+  right: 100px;
+  width: 850px;
+  height: 200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr 1fr;

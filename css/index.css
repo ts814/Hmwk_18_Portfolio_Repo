@@ -1,0 +1,280 @@
+body {
+  
+  font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    margin: 0;
+  }
+  
+  /* nav bar */
+  
+  nav {
+    background-color: black;
+    color: white;
+    height: 9.3vh;
+    z-index: 1;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: 400;
+    float: left;
+    margin: 10px;
+  }
+  .top-menu {
+    font-size: 18px;
+    float: right;
+    margin: 36px;
+  }
+
+  .topNavlink {
+    color: snow;
+  }
+
+  .topNavlink:hover {
+    color: snow;
+  }
+
+  .top-menu li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px; 
+  }
+
+  .top-menu li:hover {
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    background-color: rgb(112, 121, 113);
+    border-radius: 5px;
+    transition: ease-in 0.25s;
+  }
+  
+  .menu-bar {
+    float: right;
+    font-size: 30px; 
+    height: 100%;
+    display: none;
+  }
+  
+  /* hero section */
+  
+  .hero-section {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 660px;
+  }
+  
+  .hero-gif {
+    /* border: 2px solid purple; */
+    float:left;
+    margin-top: 20px;
+  }
+  
+  .about-text{
+    /* border: 2px solid blue; */
+    float: right;
+    width: 35%;
+    padding: 30px;
+    margin-top: 20px;
+  }
+
+  .sectionHeading {
+    text-align: center;
+    padding: 20px;
+  } */
+  
+  /* .caseStudies-home {
+    position: relative;
+    bottom: 120px;
+  }
+
+  
+   .caseHead {
+  text-align: center;
+  height: fit-content;
+   } */
+
+  /* .container-fluid-content {
+    margin-top: -60px;
+  } */
+
+   .cardContainer {
+    text-align: center;
+  }
+  .card {
+    margin: 0 auto;
+    align-items: center;
+    background-color:  rgb(255, 255, 255) !important;
+    border-radius: 5px !important;
+    border-color:  rgb(164, 176, 199) !important;
+  }
+
+  .card-img-top {
+    border-radius: 4px 4px 0 0 !important;
+  }
+
+
+  @media (max-width:842px) {
+
+    nav {
+      width: auto;
+    }
+
+    .top-menu {
+      display: none;
+    }
+     
+    .menu-bar {
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-gif {
+      height: 40% !important;
+    }
+    .about-text {
+    float: none;
+    width: 85%;
+    padding: 0;
+    }
+
+
+  }
+
+  @media (max-width: 1420px) {
+
+    nav {
+      z-index: 1;
+    }
+
+    .hero-section {
+      
+      align-items: center;
+      justify-content: center;
+      float: none; 
+    }
+
+    .hero-gif {
+      height: 45% !important;
+    }
+  
+    .about-text{ 
+      float: none;
+      width: 85% !important;
+    }
+  
+    .hero-gif{
+      float: none;
+      z-index: -1;
+    }
+
+    .container-fluid {
+      float: none;
+      margin-top: 150px !important;
+    }
+  }
+
+   /* .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr 1fr;
+    font-size: 24px;
+  } */
+
+  /* #bottomNav{
+    background-color: black;
+    width: 100%;
+    height: 15px;
+    padding: 30px;
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    z-index: 1;
+    align-self: baseline; */
+  }
+
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+  } 
+
+  .emailContain {
+  background: url(../images/SizzlingUnsungHarborseal-size_restricted.gif);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  margin-top: 0px;
+}
+
+form {
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 1px solid #F2F2F2;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: white; */
+  
+  }
+
+  /* button {
+    margin-top: 20px;
+    line-height: 60px;
+    width: auto;
+    font-weight: bold;
+    padding: 0 20px;
+    border: none;
+    background-color: rgb(26, 94, 139);
+    color: white;
+        }
+
+  button:hover {
+    background-color: rgb(83, 62, 83);
+    color: white;
+        } */
+
+  .preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: white;
+    top: 0;
+    display: flex;
+    align-items: center;
+    text-align: end;
+    }
+
+  .preloader img {
+    animation: linear 1s ease;
+    transition: all;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .btn-primary {
+    background-color: rgb(57, 68, 92) !important;
+    border: rgb(57, 68, 92) !important;
+  }
+
+  .btn-primary:hover {
+    background-color: rgb(112, 121, 113) !important;
+    border: rgb(112, 121, 113) !important;
+  }
