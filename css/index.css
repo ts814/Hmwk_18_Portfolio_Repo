@@ -278,3 +278,8 @@ form {
     background-color: rgb(112, 121, 113) !important;
     border: rgb(112, 121, 113) !important;
   }
+
+  .btn-inactive {
+    background-color: rgb(80, 88, 81) !important;
+    border: rgb(80, 88, 81) !important;
+  }
