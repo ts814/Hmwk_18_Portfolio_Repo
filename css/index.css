@@ -116,6 +116,9 @@ body {
     border-radius: 4px 4px 0 0 !important;
   }
 
+  #viewBelow {
+    float: left;
+  }
 
   @media (max-width:842px) {
 
