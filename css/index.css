@@ -117,7 +117,7 @@ body {
   }
 
   #viewBelow {
-    float: left;
+    float: right;
   }
 
   @media (max-width:842px) {
