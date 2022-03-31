@@ -223,11 +223,11 @@ body {
 }
 
 form {
-  width: 450px;
+  width: 450px !important;
   margin: 35px auto;
   padding: 35px;
   border: 1px solid #F2F2F2;
-  text-align: center;
+  text-align: center !important; 
   border-radius: 5px !important;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
