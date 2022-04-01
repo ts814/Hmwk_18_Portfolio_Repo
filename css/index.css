@@ -236,7 +236,7 @@ form {
   }
 
 .content {
-  padding: 50px;
+  padding: 50px !important;
 }
   
 .sectionHeading {
@@ -244,26 +244,26 @@ form {
 }
   
 .showsNear {
-  padding: 0px 30px 30px 30px;
+  padding: 0px 30px 30px 30px !important;
 }
   
 .col-3 {
   background-color: rgb(89, 95, 122);
-  border-radius: 0 15px 15px 0;
+  border-radius: 0 15px 15px 0 !important;
 }
 .sideAccent {
   background: rgb(89, 95, 122);
-  width: 15px;
+  width: 15px !important;
 }
 .imageContainer img {
-  width: 100%;
+  width: 100% !important;
 }
 .imageContainer {
-  padding: 50px;
+  padding: 50px !important;
 }
 .valueProp {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
 }
   /* button {
     margin-top: 20px;
