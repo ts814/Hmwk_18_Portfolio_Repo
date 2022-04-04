@@ -154,7 +154,6 @@ body {
       align-items: center;
       justify-content: center;
       float: none; 
-      padding: 0 0 0 5px;
     }
 
     .hero-gif {
@@ -163,7 +162,7 @@ body {
   
     .about-text{ 
       float: none;
-      width: 85% !important;
+      width: 95% !important;
     }
   
     .hero-gif {
