@@ -258,6 +258,13 @@ form {
 .imageContainer img {
   width: 100%;
 }
+
+@media (min-width:767.98px) {}
+  .imageContainer img{
+    display:none;
+  }
+}
+
 .imageContainer {
   padding: 50px;
 }
