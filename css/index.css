@@ -259,7 +259,7 @@ form {
   width: 100%;
 }
 
-@media (min-width:576px) {}
+@media (max-width:576px) {}
   .imageContainer img{
     display:none;
   }
