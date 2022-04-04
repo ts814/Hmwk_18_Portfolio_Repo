@@ -255,7 +255,7 @@ form {
   background: rgb(89, 95, 122);
   width: 15px;
 }
-.imageContainer img {
+/*.imageContainer img {
   width: 100%;
 }
 
@@ -263,7 +263,7 @@ form {
   .imageContainer img{
     display:none;
   }
-}
+} */
 
 .imageContainer {
   padding: 50px;
