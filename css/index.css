@@ -154,6 +154,7 @@ body {
       align-items: center;
       justify-content: center;
       float: none; 
+      padding: 0 0 0 5px;
     }
 
     .hero-gif {
