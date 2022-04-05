@@ -247,10 +247,11 @@ form {
   padding: 0px 30px 30px 0px;
 }
   
-/* .col-3 {
-  background-color: rgb(89, 95, 122);
-  border-radius: 0 15px 15px 0 !important;
-} */
+.col-3 {
+  background-color: #6d6a7f;
+  border-radius: 0 5px 5px 0;
+  width: 10px;
+} 
 .sideAccent {
   background: rgb(89, 95, 122);
   width: 5px !important;
