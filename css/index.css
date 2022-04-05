@@ -256,6 +256,15 @@ form {
   background: rgb(89, 95, 122);
   width: 5px !important;
 }
+
+.sideLeft {
+  justify-content: left;
+}
+
+.sideRight {
+  justify-content: right;
+}
+
 /*.imageContainer img {
   width: 100%;
 }
